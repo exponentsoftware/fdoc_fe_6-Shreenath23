@@ -3,7 +3,7 @@ import Albums from "./Components/Albums.js";
 
 class App extends Component {
   state = {
-    albums: [
+  albums: [
       {
         id: 0,
         artist: "A.R.Rehman",
@@ -52,7 +52,7 @@ class App extends Component {
       },
     ],
   };
-  render() {
+render() {
     return (
       <>
         <div className="container">
